@@ -1,0 +1,25 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/wallet": "^5.8.0",
+    "@polymarket/order-utils": "^2.1.0",
+    "axios": "^1.9.0",
+    "browser-or-node": "^3.0.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.14.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
